@@ -1,0 +1,262 @@
+[
+  {
+    "id": "q001",
+    "question": "מהו מספר החלק (Part Number) והגרסה (Revision) של המדריך \"Working with HP Indigo ElectroInk Silver\", ומתי הוא פורסם?",
+    "expected_answer": "מספר חלק CA394-28380, גרסה (Revision) 02, פורסם במאי 2021.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "ii",
+      "section": "Legal information",
+      "quote": "Part Number: CA394-28380\nRevision 02: May 2021"
+    },
+    "language": "he",
+    "category": "specifications"
+  },
+  {
+    "id": "q002",
+    "question": "אילו דגמי מכונות דפוס של HP Indigo נתמכים במדריך העבודה עם ElectroInk Silver?",
+    "expected_answer": "HP Indigo 6600 Digital Press (עם Value Pack), HP Indigo 6800 Digital Press ו-HP Indigo 6900 Digital Press.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "1",
+      "section": "Who can benefit from reading this How-to Guide?",
+      "quote": "This document is intended for owners, operators and CEs of HP Indigo 6600 (with Value Pack) / 6800 / 6900 Digital Presses for which HP Indigo ElectroInk Silver has been purchased."
+    },
+    "language": "he",
+    "category": "specifications"
+  },
+  {
+    "id": "q003",
+    "question": "מהן גרסאות התוכנה המינימליות של המכונה ושל ה-DFE הנדרשות לשימוש ב-HP Indigo ElectroInk Silver?",
+    "expected_answer": "גרסת תוכנת מכונה 15.0.i34 ואילך; DFE מסוג ESKO גרסה 5.2_IR7.2 + HF18.2 + HF23.0, או גרסה 5.2.1, או Production Pro for Labels & Packaging גרסה 7.0.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "1",
+      "section": "Prerequisites to using ElectroInk Silver",
+      "quote": "Press software version 15.0.i34 or later.\nDFE ESKO version 5.2_IR7.2 + HF18.2 + HF23.0, OR version 5.2.1, OR Production Pro for Labels & Packaging version 7.0."
+    },
+    "language": "he",
+    "category": "specifications"
+  },
+  {
+    "id": "q004",
+    "question": "מהם מספרי החלק של בסיס ה-BID וגליל הפיתוח (developer roller) הייעודיים ל-Silver?",
+    "expected_answer": "בסיס BID מספר חלק C8Q11A, וגליל פיתוח BID מספר חלק C8Q12A.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "1",
+      "section": "Prerequisites to using ElectroInk Silver",
+      "quote": "BID base C8Q11A 1\nBID developer C8Q12A 1"
+    },
+    "language": "he",
+    "category": "specifications"
+  },
+  {
+    "id": "q005",
+    "question": "האם ניתן להדפיס את HP Indigo ElectroInk Silver כגווני ביניים (halftone)?",
+    "expected_answer": "לא. המכונה יכולה להדפיס ולכייל את ה-Silver רק כצבע מלא (solid) — כיול בגווני אפור אינו נתמך, והדפסה בגווני ביניים פוגעת בביצועים.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "2",
+      "section": "Limitations",
+      "quote": "The press can print and calibrate HP Indigo ElectroInk Silver only as solid color. Silver gray-level calibration is not supported. Printing HP Indigo ElectroInk Silver as half tones reduces performance."
+    },
+    "language": "he",
+    "category": "limitations"
+  },
+  {
+    "id": "q006",
+    "question": "האם HP Indigo ElectroInk Silver נתמך בכל מכונת דפוס?",
+    "expected_answer": "לא — ניתן להשתמש בו רק במכונות שמותקן בהן ספקטרופוטומטר.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "2",
+      "section": "Limitations",
+      "quote": "HP Indigo ElectroInk Silver can be used ONLY on presses with a spectrophotometer installed."
+    },
+    "language": "he",
+    "category": "limitations"
+  },
+  {
+    "id": "q007",
+    "question": "באיזו תדירות יש לבנות מחדש (rebuild) את דיו HP Indigo ElectroInk Silver?",
+    "expected_answer": "פעם בחודש, לאחר ניקוי מיכל הדיו.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "2",
+      "section": "Limitations",
+      "quote": "The ink must be rebuilt once a month (after the ink tank has been cleaned)."
+    },
+    "language": "he",
+    "category": "maintenance"
+  },
+  {
+    "id": "q008",
+    "question": "כמה מעברי הדפסה (hits/separations) של Silver מומלץ להשתמש, ומדוע?",
+    "expected_answer": "2 מעברים — נקודת העבודה האופטימלית של הצבע, יעדי הצפיפות האופטית (OD) והכיולים מבוססים כולם על 2 מעברי ElectroInk Silver, המעניקים את המראה המתכתי הטוב ביותר.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "3",
+      "section": "Performance and recommendations",
+      "quote": "It is recommended to use HP Indigo ElectroInk Silver with 2 hits in order to reach the OD (optical density) targets and best metallic appearance. The optimized color working point is based on 2 hits of ElectroInk Silver."
+    },
+    "language": "he",
+    "category": "calibration"
+  },
+  {
+    "id": "q009",
+    "question": "האם מומלץ לבצע כיול צבע מלא (Full Color Calibration - FCC) עבור HP Indigo ElectroInk Silver?",
+    "expected_answer": "לא — ה-Silver יציב מבחינה חזותית, ולכן אין צורך ואין המלצה לבצע עליו FCC. אם מבוצע FCC עבור דיו אחר ללא Silver, יש להריץ את Auto Bias Wizard לאחר כל כיול צבע.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "3",
+      "section": "Performance and recommendations",
+      "quote": "HP Indigo ElectroInk Silver is visually stable, therefore it is not necessary / not recommended to perform Full Color Calibration (FCC)."
+    },
+    "language": "he",
+    "category": "calibration"
+  },
+  {
+    "id": "q010",
+    "question": "אילו אמצעי בטיחות יש לנקוט כדי למנוע גירוי בעיניים בעת טיפול בדיו ובשמן ההדמיה (imaging oil)?",
+    "expected_answer": "יש לחבוש מגן עיניים; להתקין תחנות לשטיפת עיניים במרחק של עד 7.6 מטר (25 רגל) מאזורים שבהם מטפלים בדיו ובשמן ההדמיה, מנפקים אותם או מאחסנים אותם; ולספק בתחנות אלה נוזל לשטיפת עיניים בהתאם לתקן ANSI Z358.1-1990.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "4",
+      "section": "Preventing eye irritation",
+      "quote": "Wear protective eye covering.\nInstall eye wash stations within 7.6 m (25 ft) of areas where the ink and imaging oil are handled, dispensed, or stored."
+    },
+    "language": "he",
+    "category": "safety"
+  },
+  {
+    "id": "q011",
+    "question": "בעת בניית מיכל הדיו עבור HP Indigo ElectroInk Silver, האם יש להוסיף imaging agent?",
+    "expected_answer": "לא — אין להוסיף imaging agent, מכיוון שהוא משפיע על המוליכות (conductivity) של דיו ה-Silver.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "5",
+      "section": "Quick guide / overview to installing HP Indigo ElectroInk Silver and working with it",
+      "quote": "DO NOT add imaging agent (affects the conductivity)!"
+    },
+    "language": "he",
+    "category": "installation"
+  },
+  {
+    "id": "q012",
+    "question": "מה קורה אם משתמשים בבסיס BID רגיל (שאינו ייעודי ל-Silver) עם HP Indigo ElectroInk Silver?",
+    "expected_answer": "הדבר גורם לבעיות באיכות ההדפסה ובביצועים; שימוש ב-BID הלא נכון עבור Silver (או בדיו שאינו Silver עם ה-BID הייעודי ל-Silver) גם גורם לשגיאת תוכנה.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "7",
+      "section": "Installing the dedicated BID base and developer roller",
+      "quote": "Using a regular BID will cause print quality and performance issues. DO NOT use the dedicated ElectroInk Silver BID base and developer roller for other inks. (Note that a software error will occur when using the wrong BID for Silver, or a non-Silver ink with the Silver-dedicated BID)."
+    },
+    "language": "he",
+    "category": "installation"
+  },
+  {
+    "id": "q013",
+    "question": "באילו תחנות דיו יש להשתמש עבור HP Indigo ElectroInk Silver?",
+    "expected_answer": "תחנות דיו 1, 6 או 7.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "9",
+      "section": "Building HP Indigo ElectroInk Silver",
+      "quote": "Silver-dedicated ink stations and BIDs — Use the ink stations and BIDs 1, 6 or 7 for HP Indigo ElectroInk Silver."
+    },
+    "language": "he",
+    "category": "installation"
+  },
+  {
+    "id": "q014",
+    "question": "אילו ערכי צפיפות ומוליכות משמשים בעת בניית HP Indigo ElectroInk Silver באמצעות מחסנית הכיול?",
+    "expected_answer": "ערך צפיפות 1.7 ומוליכות 50 phmo — מכוילים אוטומטית, ללא צורך במדידת מוליכות במכשיר חיצוני.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "10",
+      "section": "Building HP Indigo ElectroInk Silver",
+      "quote": "Density value: 1.7\nConductivity: 50 phmo"
+    },
+    "language": "he",
+    "category": "calibration"
+  },
+  {
+    "id": "q015",
+    "question": "על מה משפיעה כוונון מתח ה-BID cleaner, ובאיזה צעד מומלץ לשנות אותו?",
+    "expected_answer": "משפיע על זיכרון תמונה (פגמי ghosting). מומלץ לשנות את המתח בקפיצות של 20 וולט, ולבדוק ערכים בטווח 160-300V (ברירת המחדל 220V).",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "16",
+      "section": "Performing Silver color adjustments",
+      "quote": "BID cleaner voltage — Impacts the image memory... It is recommended to change the voltage value by jumps of 20 volts."
+    },
+    "language": "he",
+    "category": "calibration"
+  },
+  {
+    "id": "q016",
+    "question": "מה שולט עליו מתח האלקטרודה של ה-BID (BID electrode voltage), ומהו הטווח המומלץ?",
+    "expected_answer": "משפיע על הצפיפות האופטית ועל הרקע: הגדלתו משפרת את איכות השטח המלא (צבע כהה יותר), הקטנתו מורידה את רמת הרקע. הטווח המומלץ הוא 400-500V, בקפיצות של 50 וולט.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "16",
+      "section": "Performing Silver color adjustments",
+      "quote": "BID electrode voltage — Impacts the optical density and the background... It is recommended to change the voltage value by jumps of 50 volts (the recommended value is 400-500v...)."
+    },
+    "language": "he",
+    "category": "calibration"
+  },
+  {
+    "id": "q017",
+    "question": "מתי מתרחשת \"חפיפת רקע\" (background overlap) בעבודת הדפסה עם Silver?",
+    "expected_answer": "כאשר אורך החזרה (repeat length - RL) של העבודה קטן מאורך ה-PIP של 980 מ\"מ, מה שגורם לרמת רקע מוגברת באזור החפיפה.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "17",
+      "section": "Reducing background overlap",
+      "quote": "When the job repeat length (RL) is less than the PIP length of 980 mm, there might be a heightened level of background in the overlapped area."
+    },
+    "language": "he",
+    "category": "troubleshooting"
+  },
+  {
+    "id": "q018",
+    "question": "מתי מומלץ לבצע את הליך ה-OFIR השבועי (On-press Fast Ink Replacement) עבור Silver?",
+    "expected_answer": "בסוף השבוע, כדי למנוע הצטברות של משקעים (sludge) במיכל הדיו בתחילת השבוע הבא.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "21",
+      "section": "Recommended maintenance",
+      "quote": "It is recommended to perform the weekly OFIR at the end of the week in order to prevent accumulation of sludge in the ink tank at the beginning of the following week."
+    },
+    "language": "he",
+    "category": "maintenance"
+  },
+  {
+    "id": "q019",
+    "question": "כיצד משתנה הצפיפות האופטית (OD) של HP Indigo ElectroInk Silver לאחר בניית הדיו מחדש?",
+    "expected_answer": "לאחר בניית הדיו מחדש, ה-OD גבוה יותר בתחילה (1.3, במדידה במכשיר חיצוני M3) ומגיע למצב יציב של 1.1 (M3) לאחר כ-5,000 הדפסות Silver.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "21",
+      "section": "Recommended maintenance",
+      "quote": "After ink rebuild, OD will be higher (1.3, when measuring with an M3 external device) and will reach steady state (1.1, with M3) following 5,000 Silver impressions."
+    },
+    "language": "he",
+    "category": "maintenance"
+  },
+  {
+    "id": "q020",
+    "question": "אם לא ישתמשו ב-HP Indigo ElectroInk Silver במשך מספר ימים, כיצד יש לאחסן אותו?",
+    "expected_answer": "יש לרוקן את הדיו למיכל נקי וסגור — ניתן לשמור אותו עד חודש, בתנאי שמנערים אותו פעם בשבוע; יש לרשום על המיכל את ערכי המוליכות והצפיפות כדי שניתן יהיה לכייל את הדיו מחדש בעת השימוש החוזר בו.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "25",
+      "section": "Removing and storing ElectroInk Silver and BID",
+      "quote": "Drain the ink into a clean container. The ElectroInk Silver solution can be kept in a closed container up to one month, provided that it is shaken once a week."
+    },
+    "language": "he",
+    "category": "storage"
+  }
+]

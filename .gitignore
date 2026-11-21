@@ -1,0 +1,9 @@
+# Local environment config (real values, may contain secrets)
+.env
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+
+# IDE config
+.vscode/

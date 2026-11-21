@@ -1,0 +1,262 @@
+[
+  {
+    "id": "q001",
+    "question": "What is the part number and revision of the \"Working with HP Indigo ElectroInk Silver\" guide, and when was it published?",
+    "expected_answer": "Part Number CA394-28380, Revision 02, published May 2021.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "ii",
+      "section": "Legal information",
+      "quote": "Part Number: CA394-28380\nRevision 02: May 2021"
+    },
+    "language": "en",
+    "category": "specifications"
+  },
+  {
+    "id": "q002",
+    "question": "Which HP Indigo press models are covered by the ElectroInk Silver how-to guide?",
+    "expected_answer": "HP Indigo 6600 Digital Press (with Value Pack), HP Indigo 6800 Digital Press, and HP Indigo 6900 Digital Press.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "1",
+      "section": "Who can benefit from reading this How-to Guide?",
+      "quote": "This document is intended for owners, operators and CEs of HP Indigo 6600 (with Value Pack) / 6800 / 6900 Digital Presses for which HP Indigo ElectroInk Silver has been purchased."
+    },
+    "language": "en",
+    "category": "specifications"
+  },
+  {
+    "id": "q003",
+    "question": "What minimum press software and DFE versions are required to use HP Indigo ElectroInk Silver?",
+    "expected_answer": "Press software version 15.0.i34 or later; DFE ESKO version 5.2_IR7.2 + HF18.2 + HF23.0, or version 5.2.1, or Production Pro for Labels & Packaging version 7.0.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "1",
+      "section": "Prerequisites to using ElectroInk Silver",
+      "quote": "Press software version 15.0.i34 or later.\nDFE ESKO version 5.2_IR7.2 + HF18.2 + HF23.0, OR version 5.2.1, OR Production Pro for Labels & Packaging version 7.0."
+    },
+    "language": "en",
+    "category": "specifications"
+  },
+  {
+    "id": "q004",
+    "question": "What are the part numbers for the Silver-dedicated BID base and developer roller?",
+    "expected_answer": "BID base P/N C8Q11A and BID developer roller P/N C8Q12A.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "1",
+      "section": "Prerequisites to using ElectroInk Silver",
+      "quote": "BID base C8Q11A 1\nBID developer C8Q12A 1"
+    },
+    "language": "en",
+    "category": "specifications"
+  },
+  {
+    "id": "q005",
+    "question": "Can HP Indigo ElectroInk Silver be printed as a halftone (gray-level)?",
+    "expected_answer": "No. The press can only print and calibrate Silver as a solid color — gray-level calibration is not supported, and printing it as halftones reduces performance.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "2",
+      "section": "Limitations",
+      "quote": "The press can print and calibrate HP Indigo ElectroInk Silver only as solid color. Silver gray-level calibration is not supported. Printing HP Indigo ElectroInk Silver as half tones reduces performance."
+    },
+    "language": "en",
+    "category": "limitations"
+  },
+  {
+    "id": "q006",
+    "question": "Is HP Indigo ElectroInk Silver supported on every press?",
+    "expected_answer": "No — it can be used only on presses that have a spectrophotometer installed.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "2",
+      "section": "Limitations",
+      "quote": "HP Indigo ElectroInk Silver can be used ONLY on presses with a spectrophotometer installed."
+    },
+    "language": "en",
+    "category": "limitations"
+  },
+  {
+    "id": "q007",
+    "question": "How frequently must HP Indigo ElectroInk Silver ink be rebuilt?",
+    "expected_answer": "Once a month, after the ink tank has been cleaned.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "2",
+      "section": "Limitations",
+      "quote": "The ink must be rebuilt once a month (after the ink tank has been cleaned)."
+    },
+    "language": "en",
+    "category": "maintenance"
+  },
+  {
+    "id": "q008",
+    "question": "How many hits (separations) of Silver are recommended, and why?",
+    "expected_answer": "2 hits — the optimized color working point, OD (optical density) targets, and calibrations are all based on 2 hits of ElectroInk Silver, giving the best metallic appearance.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "3",
+      "section": "Performance and recommendations",
+      "quote": "It is recommended to use HP Indigo ElectroInk Silver with 2 hits in order to reach the OD (optical density) targets and best metallic appearance. The optimized color working point is based on 2 hits of ElectroInk Silver."
+    },
+    "language": "en",
+    "category": "calibration"
+  },
+  {
+    "id": "q009",
+    "question": "Is it recommended to run a Full Color Calibration (FCC) on HP Indigo ElectroInk Silver?",
+    "expected_answer": "No — Silver is visually stable, so it is not necessary or recommended to perform FCC on it. If FCC is performed for other inks without silver, the Auto Bias Wizard must be run after every color calibration.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "3",
+      "section": "Performance and recommendations",
+      "quote": "HP Indigo ElectroInk Silver is visually stable, therefore it is not necessary / not recommended to perform Full Color Calibration (FCC)."
+    },
+    "language": "en",
+    "category": "calibration"
+  },
+  {
+    "id": "q010",
+    "question": "What safety precautions should be taken to prevent eye irritation when handling ink and imaging oil?",
+    "expected_answer": "Wear protective eye covering; install eye wash stations within 7.6 m (25 ft) of areas where ink and imaging oil are handled, dispensed, or stored; and provide eye wash liquid at those stations per ANSI standard Z358.1-1990.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "4",
+      "section": "Preventing eye irritation",
+      "quote": "Wear protective eye covering.\nInstall eye wash stations within 7.6 m (25 ft) of areas where the ink and imaging oil are handled, dispensed, or stored."
+    },
+    "language": "en",
+    "category": "safety"
+  },
+  {
+    "id": "q011",
+    "question": "When building the ink tank for HP Indigo ElectroInk Silver, should imaging agent be added?",
+    "expected_answer": "No — do not add imaging agent, since it affects the conductivity of the Silver ink.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "5",
+      "section": "Quick guide / overview to installing HP Indigo ElectroInk Silver and working with it",
+      "quote": "DO NOT add imaging agent (affects the conductivity)!"
+    },
+    "language": "en",
+    "category": "installation"
+  },
+  {
+    "id": "q012",
+    "question": "What happens if a regular (non-Silver-dedicated) BID base is used with HP Indigo ElectroInk Silver?",
+    "expected_answer": "It causes print quality and performance issues; using the wrong BID for Silver (or a non-Silver ink with the Silver-dedicated BID) also triggers a software error.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "7",
+      "section": "Installing the dedicated BID base and developer roller",
+      "quote": "Using a regular BID will cause print quality and performance issues. DO NOT use the dedicated ElectroInk Silver BID base and developer roller for other inks. (Note that a software error will occur when using the wrong BID for Silver, or a non-Silver ink with the Silver-dedicated BID)."
+    },
+    "language": "en",
+    "category": "installation"
+  },
+  {
+    "id": "q013",
+    "question": "Which ink stations should be used for HP Indigo ElectroInk Silver?",
+    "expected_answer": "Ink station 1, 6, or 7.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "9",
+      "section": "Building HP Indigo ElectroInk Silver",
+      "quote": "Silver-dedicated ink stations and BIDs — Use the ink stations and BIDs 1, 6 or 7 for HP Indigo ElectroInk Silver."
+    },
+    "language": "en",
+    "category": "installation"
+  },
+  {
+    "id": "q014",
+    "question": "What density and conductivity values are used when building HP Indigo ElectroInk Silver with the calibration cartridge?",
+    "expected_answer": "Density value 1.7, and conductivity 50 phmo — calibrated automatically, with no need to measure conductivity with an external device.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "10",
+      "section": "Building HP Indigo ElectroInk Silver",
+      "quote": "Density value: 1.7\nConductivity: 50 phmo"
+    },
+    "language": "en",
+    "category": "calibration"
+  },
+  {
+    "id": "q015",
+    "question": "What does the BID cleaner voltage adjustment affect, and what step size is recommended when changing it?",
+    "expected_answer": "It impacts image memory (ghosting defects). It's recommended to change it in jumps of 20 volts, testing values such as 160-300V (default 220V).",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "16",
+      "section": "Performing Silver color adjustments",
+      "quote": "BID cleaner voltage — Impacts the image memory... It is recommended to change the voltage value by jumps of 20 volts."
+    },
+    "language": "en",
+    "category": "calibration"
+  },
+  {
+    "id": "q016",
+    "question": "What does the BID electrode voltage control, and what is the recommended range?",
+    "expected_answer": "It impacts optical density and background: increasing it improves solid quality (darker color), decreasing it lowers background. The recommended range is 400-500V, adjusted in jumps of 50 volts.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "16",
+      "section": "Performing Silver color adjustments",
+      "quote": "BID electrode voltage — Impacts the optical density and the background... It is recommended to change the voltage value by jumps of 50 volts (the recommended value is 400-500v...)."
+    },
+    "language": "en",
+    "category": "calibration"
+  },
+  {
+    "id": "q017",
+    "question": "When does \"background overlap\" occur on a Silver print job?",
+    "expected_answer": "When the job's repeat length (RL) is less than the PIP length of 980 mm, causing a heightened level of background in the overlapped area.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "17",
+      "section": "Reducing background overlap",
+      "quote": "When the job repeat length (RL) is less than the PIP length of 980 mm, there might be a heightened level of background in the overlapped area."
+    },
+    "language": "en",
+    "category": "troubleshooting"
+  },
+  {
+    "id": "q018",
+    "question": "When is it recommended to perform the weekly OFIR (On-press Fast Ink Replacement) for Silver?",
+    "expected_answer": "At the end of the week, to prevent accumulation of sludge in the ink tank at the beginning of the following week.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "21",
+      "section": "Recommended maintenance",
+      "quote": "It is recommended to perform the weekly OFIR at the end of the week in order to prevent accumulation of sludge in the ink tank at the beginning of the following week."
+    },
+    "language": "en",
+    "category": "maintenance"
+  },
+  {
+    "id": "q019",
+    "question": "How does the optical density (OD) of HP Indigo ElectroInk Silver change after rebuilding the ink?",
+    "expected_answer": "After the ink rebuild, OD is initially higher (1.3, measured with an M3 external device) and reaches a steady state of 1.1 (M3) after about 5,000 Silver impressions.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "21",
+      "section": "Recommended maintenance",
+      "quote": "After ink rebuild, OD will be higher (1.3, when measuring with an M3 external device) and will reach steady state (1.1, with M3) following 5,000 Silver impressions."
+    },
+    "language": "en",
+    "category": "maintenance"
+  },
+  {
+    "id": "q020",
+    "question": "If HP Indigo ElectroInk Silver won't be used for a few days, how should it be stored?",
+    "expected_answer": "Drain the ink into a clean, closed container — it can be kept for up to one month, provided it is shaken once a week; write the conductivity and density values on the container so the ink can be recalibrated when reused.",
+    "source": {
+      "document": "indigo_6600.pdf",
+      "page": "25",
+      "section": "Removing and storing ElectroInk Silver and BID",
+      "quote": "Drain the ink into a clean container. The ElectroInk Silver solution can be kept in a closed container up to one month, provided that it is shaken once a week."
+    },
+    "language": "en",
+    "category": "storage"
+  }
+]

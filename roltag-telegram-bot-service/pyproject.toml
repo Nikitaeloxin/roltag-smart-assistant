@@ -1,0 +1,22 @@
+[project]
+name = "roltag-telegram-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiogram>=3.31.0",
+    "httpx>=0.28.1",
+    "pydantic-settings>=2.15.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+# tests/ has no __init__.py, so pytest's default sys.path insertion stops at
+# each test file's own directory instead of climbing to the repo root --
+# `import app...` / `import main` would fail without this.
+pythonpath = ["."]

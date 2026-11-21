@@ -1,0 +1,56 @@
+services:
+  chromadb:
+    image: chromadb/chroma:latest
+    volumes:
+      - chroma-data:/data
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "/bin/bash", "-c", "</dev/tcp/localhost/8000"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  roltag-ai-assistant-service:
+    build: ./roltag-ai-assistant-service
+    image: roltag-ai-assistant-service:latest
+    depends_on:
+      - chromadb
+    ports:
+      - "8001:8001"
+    env_file:
+      - .env                        # LLM_BASE_URL, LLM_MODEL_NAME
+    environment:
+      CHROMA_HOST: chromadb
+      CHROMA_PORT: 8000
+      HF_HOME: /data/hf-cache
+      LLM_BASE_URL: ${LLM_BASE_URL}
+    volumes:
+      - hf-cache:/data/hf-cache                  # embedding/reranker model cache
+      - ./roltag-ai-assistant-service/data:/app/data:ro   # source PDFs, read by the indexer
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8001/health')"]
+      interval: 30s
+      timeout: 5s
+      start_period: 30s
+      retries: 3
+    restart: unless-stopped
+  
+  roltag-telegram-bot-service:
+    build: ./roltag-telegram-bot-service
+    image: roltag-telegram-bot-service:latest
+    depends_on:
+      - roltag-ai-assistant-service
+    ports:
+      - "8002:8002"
+    env_file:
+      - .env                        # TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
+    environment:
+      RAG_BASE_URL: http://roltag-ai-assistant-service:8001
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
+    restart: unless-stopped
+
+volumes:
+  hf-cache:
+  chroma-data:

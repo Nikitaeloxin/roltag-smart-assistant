@@ -1,0 +1,47 @@
+[project]
+name = "roltag-ai-assistant-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "chromadb>=1.5.9",
+    "fastapi>=0.137.2",
+    "langchain>=1.3.11",
+    "langchain-chroma>=1.1.0",
+    "langchain-huggingface>=1.2.2",
+    "langchain-ollama>=1.1.0",
+    "langchain-openai>=1.3.3",
+    "langchain-text-splitters>=1.1.2",
+    "langdetect>=1.0.9",
+    "pydantic-settings>=2.14.2",
+    "pypdf>=6.14.2",
+    "sentence-transformers>=5.6.0",
+    "torch==2.6.0",
+    "transformers>=5.13.0",
+    "uvicorn>=0.49.0",
+]
+
+# No GPU in dev or in the target deployment (the LLM itself runs remotely via
+# Ollama; this app only needs torch for local embeddings/reranking) — pull the
+# CPU-only wheel instead of the CUDA-bundled default, which pulls in several
+# extra GB of nvidia-* packages this project never uses.
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+# tests/ subfolders have no __init__.py, so pytest's default sys.path
+# insertion stops at each test file's own directory instead of climbing to
+# the repo root -- `import app...` would fail without this. "." resolves
+# relative to rootdir (this file's directory).
+pythonpath = ["."]

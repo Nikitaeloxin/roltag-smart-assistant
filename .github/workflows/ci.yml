@@ -1,0 +1,25 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  rag-service:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: roltag-ai-assistant-service
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+      - run: uv sync
+      - run: uv run pytest
+
+  telegram-bot:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: roltag-telegram-bot-service
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+      - run: uv sync
+      - run: uv run pytest
